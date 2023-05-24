@@ -1,5 +1,3 @@
-package com.DSABOOTCAMP;
-
 import java.util.Arrays;
 
 public class CyclicSort {
@@ -14,7 +12,7 @@ public class CyclicSort {
             if(arr[i] != arr[correct]){
                 int temp = arr[i];
                 arr[i] = arr[correct];
-                arr[correct] = temp;
+                arr[correct] = temp;    
             }else {
                 i++;
             }
